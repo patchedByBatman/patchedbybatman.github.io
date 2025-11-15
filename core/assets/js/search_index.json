@@ -25,14 +25,24 @@
                 "content": " About Me "
             },
             {
-                "url": "/tags/widgets",
-                "title": "Tag widgets",
-                "content": " widgets "
+                "url": "/tags/Biblioteca",
+                "title": "Tag Biblioteca",
+                "content": " Biblioteca "
+            },
+            {
+                "url": "/tags/Computer Science",
+                "title": "Tag Computer Science",
+                "content": " Computer Science "
             },
             {
                 "url": "/tags/Control Systems",
                 "title": "Tag Control Systems",
                 "content": " Control Systems "
+            },
+            {
+                "url": "/tags/Electrical Engineering",
+                "title": "Tag Electrical Engineering",
+                "content": " Electrical Engineering "
             },
             {
                 "url": "/tags/Electronics",
@@ -55,9 +65,19 @@
             "content": "A short description about me. post Personal About Me Here lies the greatest lies written lightly for the light-hearted."
         },
         {
+            "url": "/Computer Science/",
+            "title": "Computer Science base",
+            "content": "Here you will find post related to Computer Science Engineering. Computer Science Welcome Page This is the welcome page for Computer Science posts."
+        },
+        {
             "url": "/Control Systems/",
             "title": "Control Systems theory base",
             "content": "Here you will find post related to Control Systems theory and design. Control Systems Welcome Page This is the welcome page for Control Systems posts.Note: For implementation and practice go to the Mechatronics posts."
+        },
+        {
+            "url": "/Electrical Engineering/",
+            "title": "Electrical Engineering base",
+            "content": "Here you will find post related to Electrical Engineering. Electrical Engineering Welcome Page This is the welcome page for Electrical Engineering posts."
         },
         {
             "url": "/Electronics/",
@@ -67,7 +87,7 @@
         {
             "url": "/",
             "title": "Knowledge Base",
-            "content": "Welcome to my Knowledge Base. widgets This is a blog-style knowledge base spanning fields of Mathematics, Electrical, Electronics, Computer Science and Control.Library sections:MathematicsThis section of the library contains the mathematical preliminaries for understanding posts in other sections. Visit Mathematics section.WriteEasily write documentation with Markdown and HTML. Create content.Get helpLibDoc’s website contains a comprehensive documentation about how to install, configure and :LibDoc’s homepage The website containing LibDocs’s presentation and comprehensive documentation.Front matter Documentation of all front matter settings related to a LibDoc page.Primary navigation Detailed features of LibDoc’s primary navigation.SEO How LibDoc’s configuration and pages parameters are applied for Search Engine Optimization.Credits LibDoc could not work without these resources."
+            "content": "Welcome to my Knowledge Base. Biblioteca This is a blog-style knowledge base spanning fields of Mathematics, Electrical, Electronics, Computer Science and Control.Library sections:MathematicsThis section of the library contains the mathematical preliminaries for understanding posts in other sections. Visit Mathematics section.Control SystemsThis section of the library contains posts on control systems theory and design principles. Visit Control Systems section.Computer ScienceThis section of the library contains posts on computer science related topics. Visit Computer Science section.MechatronicsThis section of the library contains posts on Mechatronics. Visit Mechatronics section.ElectronicsThis section of the library contains posts on Analogue and Digital Electronics. Visit Electronics section.Electrical EngineeringThis section of the library contains posts on Electrical Engineering. Visit Electrical Engineering section."
         },
         {
             "url": "/Mathematics/Linear Algebra/All About Affine/",
@@ -102,6 +122,6 @@
         {
             "url": "/tags/",
             "title": "./core/libdoc_tags.liquid",
-            "content": "  Welcome Page 4 pages Mathematics 3 pages Linear Algebra 2 pages Personal 1 page About Me 1 page widgets 1 page Control Systems 1 page Electronics 1 page Mechatronics 1 page Affine 1 page"
+            "content": "  Welcome Page 6 pages Mathematics 3 pages Linear Algebra 2 pages Personal 1 page About Me 1 page Biblioteca 1 page Computer Science 1 page Control Systems 1 page Electrical Engineering 1 page Electronics 1 page Mechatronics 1 page Affine 1 page"
         }
 ]
