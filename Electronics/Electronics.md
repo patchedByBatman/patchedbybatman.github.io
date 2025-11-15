@@ -13,3 +13,8 @@ tags:
 ---
 
 This is the welcome page for Electronics posts. 
+
+## Categories:
+1. {% 
+iconCard '[Embedded Systems](/Electronics/Embedded%20Systems/)', 'All things Embedded.', 'code' 
+%}
