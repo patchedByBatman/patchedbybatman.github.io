@@ -5,7 +5,7 @@ layout: libdoc_page.liquid
 permalink: Electronics/index.html
 eleventyNavigation:
     key: Electronics
-    order: 3
+    order: 4
 tags:
     - Electronics
     - Welcome Page
