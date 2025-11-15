@@ -9,7 +9,7 @@
     "blogAuthor": "Chandra Mouli",
     "blogSlug": "Blog",
     
-    "productionUrl": "https://eleventy-libdoc.netlify.app",
+    // "productionUrl": "https://eleventy-libdoc.netlify.app",
     "customLinks": [
         {
             "url": "https://github.com/patchedByBatman",
@@ -20,5 +20,5 @@
             "text": "LinkedIn"
         }
     ],
-    "editThisPageRootUrl": "https://github.com/ita-design-system/eleventy-libdoc/blob/main"
+    // "editThisPageRootUrl": "https://github.com/ita-design-system/eleventy-libdoc/blob/main"
 }
