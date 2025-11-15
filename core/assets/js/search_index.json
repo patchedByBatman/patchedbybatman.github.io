@@ -5,9 +5,24 @@
                 "content": " Welcome Page "
             },
             {
+                "url": "/tags/Electronics",
+                "title": "Tag Electronics",
+                "content": " Electronics "
+            },
+            {
                 "url": "/tags/Mathematics",
                 "title": "Tag Mathematics",
                 "content": " Mathematics "
+            },
+            {
+                "url": "/tags/Embedded Systems",
+                "title": "Tag Embedded Systems",
+                "content": " Embedded Systems "
+            },
+            {
+                "url": "/tags/Arduino",
+                "title": "Tag Arduino",
+                "content": " Arduino "
             },
             {
                 "url": "/tags/Linear Algebra",
@@ -45,11 +60,6 @@
                 "content": " Electrical Engineering "
             },
             {
-                "url": "/tags/Electronics",
-                "title": "Tag Electronics",
-                "content": " Electronics "
-            },
-            {
                 "url": "/tags/Mechatronics",
                 "title": "Tag Mechatronics",
                 "content": " Mechatronics "
@@ -82,12 +92,27 @@
         {
             "url": "/Electronics/",
             "title": "Electronics base",
-            "content": "Here you will find post related to Analogue and Digital Electronics theory, design and implementation. Electronics Welcome Page This is the welcome page for Electronics posts."
+            "content": "Here you will find post related to Analogue and Digital Electronics theory, design and implementation. Electronics Welcome Page This is the welcome page for Electronics posts.Categories:Embedded SystemsAll things Embedded."
+        },
+        {
+            "url": "/Electronics/Embedded Systems/Arduino/",
+            "title": "Arduino",
+            "content": "Embedded programming of AVR micro-controllers using the Arduino platform. Electronics Embedded Systems Arduino Aim:The articles in this sub-base aim to showcase and explain the implementation details of embedded systems through the programming of Arduino UNO. The code will be mainly written in C++ and we will be using Arduino IDE 2.0.Though, we will be programming an Arduino UNO using the Arduino IDE, each article will cover both bare-metal programming and its equivalent Arduino high-level functions."
+        },
+        {
+            "url": "/Electronics/Embedded Systems/Arduino/Digital IO/",
+            "title": "Digital IO",
+            "content": "This article covers how to control digital IO on Arduino UNO R3. Electronics Embedded Systems Arduino PrerequisitesThough this article deals with a very fundamental topic in embedded systems, it is assumed that the reader already has the knowledge of the following topics.LED biasing and the use of current limiting resistors.Push buttons and the use of pull-ups or pull-downs.Creating a new sketch on the Arduino IDE and configuring com-port.Basic of C and bit manipulation using bit-wise operators in C.Optional: IO registers and port manipulation theory.The Aim:This article aims to explain how to manipulate the digital IO ports on Arduino UNO. For this, we will utilise the digital pin 13 on the UNO board. Going forward the digital pin 13 will be refered to as pin 13.The Plan:Pin 13 on the Arduino UNO board is connected to the anode of an on-board LED. We can use this LED as a visual indicator when pin 13 is being manipulated.First, we plan to learn to use pin 13 in output mode, and then in input mode. In output mode, we want to turn on/off the on-board LED using a simple C++ program (the program is also called as a sketch in the Arduino environment). We then explore how to utilise the same pin 13 in input mode and read the state of a push button.The reader should be aware that the mode of operation and data manipulation of the IO pins on any micro-controller in general are controlled by configuring (setting or clearing bits) architecture specific registers. Don&#39;t worry, the article should still serve you, if you do not know how this works.Arduino UNO IO mappingThough the pin we want to manipulate is referred to as pin 13 in the Arduino environment, on the PCB this pin is wired to Pin 5 of Port-B on the AVR ATMEGA328P micro-controller. We will refer to this as PB5 in short.The reader is encouraged to visit the official Arduino UNO R3 documentation page and check out the Advanced Section of the Pinout pdf.Output modeThe IO mode of Port-B on ATMEGA328P can be configured by setting bit-5 of the Data Direction Register DDRB. This can be done as,// You can use any of the following 5 notations and they are equivalent// Using 8-bit Binary notationDDRB = ( DDRB | 0b00100000);// Using 8-bit Hex notationDDRB = (DDRB | 0x20);// Short-hand notation using compound assignment operatorDDRB |= (0x20); // this is equivalent to writing DDRB = (DDRB | 0x20)// Using bit-wise left shift operatorDDRB |= (1 &amp;lt&amp;lt 5);// Using DDB5 existing macroDDRB |= (1 &amp;lt&amp;lt DDB5); // PreferredGoing forward, we will prefer the last notations as it is both compact and readable. The macro DDB5 can be read as Data Direction register port-B bit 5 and it resolves to a literal constant of vale 5.Now, we can set (HIGH) bit 5 of Port-B register (Pin 5 of Port-B) to provide 5V on pin 13 or clear (LOW) to connect pin 13 to Ground (0V or GND). This is done as,// This turns on the LEDPORTB |= (1 &amp;lt&amp;lt PB5); // To provide 5V on pin 13// THis turns off the LEDPORTB &amp;= ~(1 &amp;lt&amp;lt PB5); // To provide 0V on pin 13The complete program to turn on the on-board LED is as follows,// Do not worry about the void setup and void loop at this stage// only focus on turning on the LEDvoid setup(){ // Configure pin 5 on Port-B as output DDRB |= (1 &amp;lt&amp;lt DDB5); // Turn on the LED PORTB |= (1 &amp;lt&amp;lt PB5);}void loop(){}You can copy the above code on to a new Arduino sketch and upload. The on-board LED should now turn on. To turn off the LED, copy the below code and upload.// Do not worry about the void setup and void loop at this stage// only focus on turning on the LEDvoid setup(){ // Configure pin 5 on Port-B as output DDRB |= (1 &amp;lt&amp;lt DDB5); // Turn on the LED PORTB &amp;= ~(1 &amp;lt&amp;lt PB5);}void loop(){}Congratulations, you now know how to use a digital pin on an Arduino in output mode. If you feel like writing two different programs and reuploading each time to turn on or off the LED isn&#39;t very useful, don&#39;t worry, as we slowly build our knowledge of embedded programming, you will be able write complex programs that can do a lot more than just controlling an LED. With this in mind, let us move on to using pin 13 in input mode."
+        },
+        {
+            "url": "/Electronics/Embedded Systems/",
+            "title": "Embedded Systems base",
+            "content": "Here you will find post related to Embedded Systems theory, design, and implementation through programming. Electronics Embedded Systems "
         },
         {
             "url": "/",
             "title": "Knowledge Base",
-            "content": "Welcome to my Knowledge Base. Biblioteca This is a blog-style knowledge base spanning fields of Mathematics, Electrical, Electronics, Computer Science and Control.Library sections:MathematicsThis section of the library contains the mathematical preliminaries for understanding posts in other sections. Visit Mathematics section.Control SystemsThis section of the library contains posts on control systems theory and design principles. Visit Control Systems section.Computer ScienceThis section of the library contains posts on computer science related topics. Visit Computer Science section.MechatronicsThis section of the library contains posts on Mechatronics. Visit Mechatronics section.ElectronicsThis section of the library contains posts on Analogue and Digital Electronics. Visit Electronics section.Electrical EngineeringThis section of the library contains posts on Electrical Engineering. Visit Electrical Engineering section."
+            "content": "Welcome to my Knowledge Base. Biblioteca This is a blog-style knowledge base spanning fields of Mathematics, Electrical, Electronics, Computer Science, Control, and Mechatronics.Library sections:MathematicsThis section of the library contains the mathematical preliminaries for understanding posts in other sections. Visit Mathematics section.Control SystemsThis section of the library contains posts on control systems theory and design principles. Visit Control Systems section.Computer ScienceThis section of the library contains posts on computer science related topics. Visit Computer Science section.MechatronicsThis section of the library contains posts on Mechatronics. Visit Mechatronics section.ElectronicsThis section of the library contains posts on Analogue and Digital Electronics. Visit Electronics section.Electrical EngineeringThis section of the library contains posts on Electrical Engineering. Visit Electrical Engineering section."
         },
         {
             "url": "/Mathematics/Linear Algebra/All About Affine/",
@@ -122,6 +147,6 @@
         {
             "url": "/tags/",
             "title": "./core/libdoc_tags.liquid",
-            "content": "  Welcome Page 6 pages Mathematics 3 pages Linear Algebra 2 pages Personal 1 page About Me 1 page Biblioteca 1 page Computer Science 1 page Control Systems 1 page Electrical Engineering 1 page Electronics 1 page Mechatronics 1 page Affine 1 page"
+            "content": "  Welcome Page 6 pages Electronics 4 pages Mathematics 3 pages Embedded Systems 3 pages Arduino 2 pages Linear Algebra 2 pages Personal 1 page About Me 1 page Biblioteca 1 page Computer Science 1 page Control Systems 1 page Electrical Engineering 1 page Mechatronics 1 page Affine 1 page"
         }
 ]

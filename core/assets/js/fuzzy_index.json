@@ -25,6 +25,21 @@
             "description": "Here you will find post related to Analogue and Digital Electronics theory, design and implementation. Electronics Welcome Page"
         },
         {
+            "url": "/Electronics/Embedded Systems/Arduino/",
+            "title": "Arduino",
+            "description": "Embedded programming of AVR micro-controllers using the Arduino platform. Electronics Embedded Systems Arduino"
+        },
+        {
+            "url": "/Electronics/Embedded Systems/Arduino/Digital IO/",
+            "title": "Digital IO",
+            "description": "This article covers how to control digital IO on Arduino UNO R3. Electronics Embedded Systems Arduino"
+        },
+        {
+            "url": "/Electronics/Embedded Systems/",
+            "title": "Embedded Systems base",
+            "description": "Here you will find post related to Embedded Systems theory, design, and implementation through programming. Electronics Embedded Systems"
+        },
+        {
             "url": "/",
             "title": "Knowledge Base",
             "description": "Welcome to my Knowledge Base. Biblioteca"
