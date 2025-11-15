@@ -1,0 +1,107 @@
+[
+            {
+                "url": "/tags/Welcome Page",
+                "title": "Tag Welcome Page",
+                "content": " Welcome Page "
+            },
+            {
+                "url": "/tags/Mathematics",
+                "title": "Tag Mathematics",
+                "content": " Mathematics "
+            },
+            {
+                "url": "/tags/Linear Algebra",
+                "title": "Tag Linear Algebra",
+                "content": " Linear Algebra "
+            },
+            {
+                "url": "/tags/Personal",
+                "title": "Tag Personal",
+                "content": " Personal "
+            },
+            {
+                "url": "/tags/About Me",
+                "title": "Tag About Me",
+                "content": " About Me "
+            },
+            {
+                "url": "/tags/widgets",
+                "title": "Tag widgets",
+                "content": " widgets "
+            },
+            {
+                "url": "/tags/Control Systems",
+                "title": "Tag Control Systems",
+                "content": " Control Systems "
+            },
+            {
+                "url": "/tags/Electronics",
+                "title": "Tag Electronics",
+                "content": " Electronics "
+            },
+            {
+                "url": "/tags/Mechatronics",
+                "title": "Tag Mechatronics",
+                "content": " Mechatronics "
+            },
+            {
+                "url": "/tags/Affine",
+                "title": "Tag Affine",
+                "content": " Affine "
+            },
+        {
+            "url": "/Blog/About Me/",
+            "title": "About Me",
+            "content": "A short description about me. post Personal About Me Here lies the greatest lies written lightly for the light-hearted."
+        },
+        {
+            "url": "/Control Systems/",
+            "title": "Control Systems theory base",
+            "content": "Here you will find post related to Control Systems theory and design. Control Systems Welcome Page This is the welcome page for Control Systems posts.Note: For implementation and practice go to the Mechatronics posts."
+        },
+        {
+            "url": "/Electronics/",
+            "title": "Electronics base",
+            "content": "Here you will find post related to Analogue and Digital Electronics theory, design and implementation. Electronics Welcome Page This is the welcome page for Electronics posts."
+        },
+        {
+            "url": "/",
+            "title": "Knowledge Base",
+            "content": "Welcome to my Knowledge Base. widgets This is a blog-style knowledge base spanning fields of Mathematics, Electrical, Electronics, Computer Science and Control.Library sections:MathematicsThis section of the library contains the mathematical preliminaries for understanding posts in other sections. Visit Mathematics section.WriteEasily write documentation with Markdown and HTML. Create content.Get helpLibDoc’s website contains a comprehensive documentation about how to install, configure and :LibDoc’s homepage The website containing LibDocs’s presentation and comprehensive documentation.Front matter Documentation of all front matter settings related to a LibDoc page.Primary navigation Detailed features of LibDoc’s primary navigation.SEO How LibDoc’s configuration and pages parameters are applied for Search Engine Optimization.Credits LibDoc could not work without these resources."
+        },
+        {
+            "url": "/Mathematics/Linear Algebra/All About Affine/",
+            "title": "All About Affine",
+            "content": "A collection of definitions and properties related to all things Affine. Mathematics Linear Algebra Affine "
+        },
+        {
+            "url": "/Mathematics/Linear Algebra/",
+            "title": "Linear Algebra",
+            "content": "Behold the tools that run the modern world. Mathematics Linear Algebra "
+        },
+        {
+            "url": "/Mathematics/",
+            "title": "Mathematics Base",
+            "content": "Here you will find post related to Mathematic Preliminaries required for understanding posts from other sections. Mathematics Welcome Page This is the welcome page for Mathematics posts."
+        },
+        {
+            "url": "/Mechatronics/",
+            "title": "Mechatronics Base",
+            "content": "Here you will find post related to Control Systems and Robotics theory implementation. Mechatronics Welcome Page This is the welcome page for Mechatronics posts.Note: For theory and design details of Control Systems go to the Control Systems posts."
+        },
+        {
+            "url": "/core/assets/fonts/icomoon/demo/",
+            "title": "./core/assets/fonts/icomoon/demo.html",
+            "content": "  IcoMoon Demo Font Name: icomoon (Glyphs:&amp;nbsp;40) Grid Size: Unknown icon-rss liga: icon-star liga: icon-star-fill liga: icon-circle-half liga: icon-sidebar liga: icon-printer liga: icon-images liga: icon-parachute liga: icon-person-arms-spread liga: icon-pen liga: icon-pencil-simple liga: icon-tag-simple liga: icon-caret-up liga: icon-caret-down liga: icon-caret-left liga: icon-caret-right liga: icon-arrow-line-down liga: icon-arrow-line-up liga: icon-calendar-dots liga: icon-minus-circle liga: icon-plus-circle liga: icon-user liga: icon-info liga: icon-arrow-square-out liga: icon-check-circle liga: icon-check liga: icon-code liga: icon-copy-simple liga: icon-dots-six-vertical liga: icon-faders liga: icon-house liga: icon-link-simple liga: icon-list-dashes liga: icon-list liga: icon-lock-simple liga: icon-magnifying-glass liga: icon-play liga: icon-rocket liga: icon-shield-warning liga: icon-x liga: Font Test Drive Font Size: px &amp;nbsp; Generated by IcoMoon"
+        },
+        {
+            "url": "/Blog/",
+            "title": "./core/libdoc_blog.liquid",
+            "content": "  2025-11-15 Chandra Mouli About Me A short description about me. 1"
+        },
+        {
+            "url": "/tags/",
+            "title": "./core/libdoc_tags.liquid",
+            "content": "  Welcome Page 4 pages Mathematics 3 pages Linear Algebra 2 pages Personal 1 page About Me 1 page widgets 1 page Control Systems 1 page Electronics 1 page Mechatronics 1 page Affine 1 page"
+        }
+]

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Knowledge Base</title>
+    <subtitle>A library of what I have learnt.</subtitle>
+    <link href="feed.xml" rel="self" />
+    <link href="https://github.com/patchedByBatman/patchedbybatman.github.io/feed.xml" />
+    <updated>2025-11-15T00:00:00Z</updated>
+    <id>https://github.com/patchedByBatman/patchedbybatman.github.io/feed.xml</id>
+    <author>
+        <name>Chandra Mouli</name>
+    </author>
+        <entry>
+            <title>About Me</title>
+            <link href="https://github.com/patchedByBatman/patchedbybatman.github.io/Blog/About Me/" />
+            <updated>2025-11-15T00:00:00Z</updated>
+            <id>https://github.com/patchedByBatman/patchedbybatman.github.io/Blog/About Me/</id>
+            <author>
+                <name>Chandra Mouli</name>
+            </author>
+            <content type="html">
+                &lt;p&gt;Here lies the greatest lies written lightly for the light-hearted.&lt;/p&gt;
+</content>
+        </entry>
+</feed>
