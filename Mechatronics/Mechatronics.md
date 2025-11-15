@@ -5,7 +5,7 @@ layout: libdoc_page.liquid
 permalink: Mechatronics/index.html
 eleventyNavigation:
     key: Mechatronics
-    order: 2
+    order: 3
 tags:
     - Mechatronics
     - Welcome Page
