@@ -20,7 +20,7 @@ Though this article deals with a very fundamental topic in embedded systems, it 
 </p>
 
 1. LED biasing and the use of current limiting resistors.
-2. Push buttons and the use of pull-ups or pull-downs.
+2. The use of pull-ups or pull-downs.
 3. Creating a new sketch on the Arduino IDE and configuring com-port.
 4. Basic of C and bit manipulation using bit-wise operators in C.
 5. <em>Optional</em>: IO registers and port manipulation theory.
@@ -36,7 +36,7 @@ Pin 13 on the Arduino UNO board is connected to the anode of an on-board LED. We
 </p>
 
 <p>
-First, we plan to learn to use pin 13 in output mode, and then pin 12 in input mode. In output mode, we want to turn ON/OFF the on-board LED using a simple C++ program (the program is also called as a sketch in the Arduino environment). We then explore how to utilise the pin 12 in input mode and read the state of a push button. The reason for selecting pin 12 for input and pin 13 for output is because we can write logic to visually indicate changes on 12 by controlling the LED on pin 13 accordingly.
+First, we plan to learn to use pin 13 in output mode, and then pin 12 in input mode. In output mode, we want to turn ON/OFF the on-board LED using a simple C++ program (the program is also called as a sketch in the Arduino environment). We then explore how to utilise the pin 12 in input mode and read the state of input on the pin. The reason for selecting pin 12 for input and pin 13 for output is because we can write logic to visually indicate changes on pin 12 by controlling the LED on pin 13 accordingly.
 </p>
 
 {% alert 'The reader should be aware that the mode of operation and data manipulation of the IO pins on any micro-controller in general are controlled by configuring (setting or clearing bits) architecture specific registers. Don\'t worry, the article should still serve you, if you do not know how this works.', 'success', 'Note:' %}
