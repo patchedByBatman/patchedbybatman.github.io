@@ -12,3 +12,7 @@ tags:
     - Embedded Systems
 # date: 15-11-2025
 ---
+
+## Platforms:
+
+1. {% iconCard '[Arduino](/Electronics/Embedded%20Systems/Arduino/Arduino.md)', 'Let\'s practice with Arduino. Learning Embedded made simple.', 'code' %}
