@@ -38,7 +38,10 @@ export default {
         "yaml",
         "liquid",
         "markdown",
-        "css"
+        "css",
+        "c",
+        "cpp",
+        "python"
     ],
     roundedImagesCorners: userConfig.roundedImagesCorners ?? true,
     editThisPageRootUrl: userConfig.editThisPageRootUrl ?? false,
