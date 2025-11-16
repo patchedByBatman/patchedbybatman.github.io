@@ -66,7 +66,7 @@ export default function(eleventyConfig) {
     // Copilot generated code part 2
     let md = markdownIt({
         html: true,
-        breaks: true,
+        breaks: false,
         linkify: true
         }).use(mathjax3, {
             tex: {
