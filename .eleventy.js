@@ -11,6 +11,15 @@ import libdocConfig                         from "./_data/libdocConfig.js";
 import libdocFunctions                      from "./_data/libdocFunctions.js";
 // END LibDoc imports
 
+
+// Copilot generated code part 1
+// .eleventy.js (ESM)
+import markdownIt from "markdown-it";
+import mathjax3 from "markdown-it-mathjax3";
+// End of Copilot generated code part 1
+
+
+
 export default function(eleventyConfig) {
     // START PLUGINS
     eleventyConfig.addPlugin(EleventyHtmlBasePlugin);
@@ -54,6 +63,22 @@ export default function(eleventyConfig) {
     eleventyConfig.addPassthroughCopy("favicon.png");
     // END FILE COPY
     
+    // Copilot generated code part 2
+    let md = markdownIt({
+        html: true,
+        breaks: true,
+        linkify: true
+        }).use(mathjax3, {
+            tex: {
+            inlineMath: [['$','$']],     // Inline math with $...$
+            displayMath: [['$$','$$']] // Block math with $$...$$
+            }
+        });
+
+    eleventyConfig.setLibrary("md", md);
+    // End of Copilot generated code part 2
+
+
     return {
         pathPrefix: libdocConfig.htmlBasePathPrefix
     }
