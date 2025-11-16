@@ -22,14 +22,14 @@
     <meta property="og:url" content="/Electronics/Embedded Systems/Arduino/">
     <meta property="og:title" content="Arduino">
     <meta property="og:description" content="Embedded programming of AVR micro-controllers using the Arduino platform.">
-    <meta property="og:image" content="https://raw.githubusercontent.com/ita-design-system/ita-medias/refs/heads/main/ogimage-11ty-libdoc.png">
+    <meta property="og:image" content="https://content.arduino.cc/assets/ArduinoCommunityLogo_SVG.svg">
     
     <!-- Twitter -->
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Arduino">
     <meta name="twitter:description" content="Embedded programming of AVR micro-controllers using the Arduino platform.">
     <meta name="twitter:url" content="/Electronics/Embedded Systems/Arduino/">
-    <meta name="twitter:image" content="https://raw.githubusercontent.com/ita-design-system/ita-medias/refs/heads/main/ogimage-11ty-libdoc.png">
+    <meta name="twitter:image" content="https://content.arduino.cc/assets/ArduinoCommunityLogo_SVG.svg">
     
     <!-- iOS -->
     <meta name="apple-mobile-web-app-title" content="Arduino">
@@ -401,7 +401,7 @@
                                     
                                     
                                         
-                                        2025-11-15
+                                        2025-11-16
                                     
                                 </span>
                             </p>
@@ -419,6 +419,29 @@
                         
                     </div>
                 
+                
+                    <details id="toc_main" open="">
+                        <summary class="d-flex ai-center | pt-5 pb-5 | fvs-wght-500 fs-3 | bwidth-1 bstyle-dashed bcolor-neutral-500 btwidth-0 brwidth-0 cur-pointer">
+                            <span class="pl-5 | bbwidth-1 bbstyle-dashed bcolor-neutral-500"></span>
+                            <span class="d-flex ai-center gap-1 | lsp-2">
+                                <span class="icon-minus-circle | fs-6 | c-primary-500"></span>
+                                <span class="icon-plus-circle | fs-6 | c-primary-500"></span>
+                                Table of content
+                            </span>
+                        </summary>
+                        
+                    <ol class="cgap-3em | m-0 pl-0 pb-5 o-auto | lh-1 | ls-none bwidth-1 bstyle-dashed bcolor-neutral-500 btwidth-0 brwidth-0" d-flex="xs,sm" fd-column="xs,sm" fw-wrap="xs,sm" columns-3="md" columns-2="sm" maxh-300px="sm" maxh-200px="xs">
+                        <li class="d-flex">
+                            <a href="#aim" class="pl-5 pt-1 pb-1 | fs-4 lsp-3 lh-5 fvs-wght-400 | blwidth-1 blstyle-dashed bcolor-neutral-500">
+                                Aim:
+                            </a>
+                        </li>
+                        <li class="d-flex">
+                            <a href="#topics" class="pl-5 pt-1 pb-1 | fs-4 lsp-3 lh-5 fvs-wght-400 | blwidth-1 blstyle-dashed bcolor-neutral-500">
+                                Topics
+                            </a>
+                        </li></ol>
+                    </details>
                 
             </header>
             <noscript>
@@ -441,8 +464,47 @@
 The articles in this sub-base aim to showcase and explain the implementation details of embedded systems through the programming of Arduino UNO. The code will be mainly written in C++ and we will be using Arduino IDE 2.0.
 </p>
 <p>
-Though, we will be programming an Arduino UNO using the Arduino IDE,  each article will cover both bare-metal programming and its equivalent Arduino high-level functions.
+Though, we will be programming an Arduino UNO using the Arduino IDE, each article will cover both bare-metal programming and its equivalent Arduino high-level functions. For demonstration purposes, with the intention to maintain a cleaner look, the results will be showcased using the online platform <a href="https://www.tinkercad.com/">Tinkercad</a> by Autodesk. 
 </p>
+<p>
+It is a really good website to build and test simple circuits, and will help you get started on embedded programming without having to get an actual Arduino. Although, if you can, I would highly recommend getting an Arduino/ Arduino Kit from the official shop at <a href="https://store.arduino.cc/">Arduino.cc</a> or any arduino engineering kits available from stores of your preference. Following along with actual hardware would benefit you a lot and the experience adds up overtime.
+</p>
+
+                        <h2 id="topics" pl-9="xs,sm">
+                            <a href="#topics" title="Topics" class="pos-absolute top-50 left-0 t-tY-50 | p-4 ml-1 | td-none | brad-4 bc-neutral-100 bwidth-1 bstyle-dashed bcolor-neutral-500 __hover-1 __soft-shadow" ml-3="xs,sm">
+                                <span class="icon-link-simple | pos-absolute top-50 left-50 t-tY-50 t-tX-50 | fs-4"></span>
+                            </a>
+                    Topics</h2>
+<ol>
+<li><aside class="widget widget-iconCard">
+<p class="d-flex gap-5 | p-5 m-0 | brad-3 bwidth-1 bstyle-dashed bcolor-neutral-500">
+<span class="icon-code fs-10 | c-primary-500" fs-8="xs"></span>
+<span class="d-flex fd-column gap-1">
+<strong class="fvs-wght-700 fs-6"><a href="/Electronics/Embedded Systems/Arduino/Arduino IDE Basics/">Arduino IDE Basics</a></strong>
+<span>How to install Arduino IDE, create a new sketch, and configure.</span>
+</span>
+</p>
+</aside></li>
+<li><aside class="widget widget-iconCard">
+<p class="d-flex gap-5 | p-5 m-0 | brad-3 bwidth-1 bstyle-dashed bcolor-neutral-500">
+<span class="icon-code fs-10 | c-primary-500" fs-8="xs"></span>
+<span class="d-flex fd-column gap-1">
+<strong class="fvs-wght-700 fs-6"><a href="/Electronics/Embedded Systems/Arduino/Arduino Ports Basics/">Arduino Ports Basics</a></strong>
+<span>IO maps and register configurations.</span>
+</span>
+</p>
+</aside></li>
+<li><aside class="widget widget-iconCard">
+<p class="d-flex gap-5 | p-5 m-0 | brad-3 bwidth-1 bstyle-dashed bcolor-neutral-500">
+<span class="icon-code fs-10 | c-primary-500" fs-8="xs"></span>
+<span class="d-flex fd-column gap-1">
+<strong class="fvs-wght-700 fs-6"><a href="/Electronics/Embedded Systems/Arduino/Digital IO/">Digital IO</a></strong>
+<span>How to use digital pins on Arduino as an Input or an Output.</span>
+</span>
+</p>
+</aside></li>
+</ol>
+
             <footer class="minh-100vh">
                 <div class="pt-11 | blwidth-1 blstyle-dashed bcolor-neutral-500"></div>
                 <nav class="d-flex ai-center rgap-7 | blwidth-1 blstyle-dashed bcolor-neutral-500" fw-wrap="xs">
@@ -474,6 +536,12 @@ Though, we will be programming an Arduino UNO using the Arduino IDE,  each artic
         <script src="/core/assets/js/hljs/languages/markdown.min.js"></script>
     
         <script src="/core/assets/js/hljs/languages/css.min.js"></script>
+    
+        <script src="/core/assets/js/hljs/languages/c.min.js"></script>
+    
+        <script src="/core/assets/js/hljs/languages/cpp.min.js"></script>
+    
+        <script src="/core/assets/js/hljs/languages/python.min.js"></script>
     
     <script src="/core/assets/js/ui.js"></script>
     
