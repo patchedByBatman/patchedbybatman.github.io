@@ -9,7 +9,7 @@ eleventyNavigation:
 tags:
     - Mechatronics
     - Welcome Page
-# date: 15-11-2025
+date: 2025-11-15
 ---
 
 This is the welcome page for Mechatronics posts. 

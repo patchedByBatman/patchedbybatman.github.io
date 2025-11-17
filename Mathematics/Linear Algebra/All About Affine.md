@@ -11,5 +11,5 @@ tags:
     - Mathematics
     - Linear Algebra
     - Affine
-# date: 15-11-2025
+date: 2025-11-15
 ---
