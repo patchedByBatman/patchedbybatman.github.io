@@ -6,7 +6,7 @@ permalink: Electronics/Embedded Systems/Arduino/Digital IO/index.html
 eleventyNavigation:
     key: Digital IO
     parent: Arduino
-    order: 1
+    order: 4
 tags:
     - Electronics
     - Embedded Systems
@@ -19,11 +19,11 @@ tags:
 Though this article deals with a very fundamental topic in embedded systems, it is assumed that the reader already has the knowledge of the following topics.
 </p>
 
-1. LED biasing and the use of current limiting resistors.
-2. The use of pull-ups or pull-downs.
-3. Creating a new sketch on the Arduino IDE and configuring com-port.
-4. Basic of C and bit manipulation using bit-wise operators in C.
-5. <em>Optional</em>: IO registers and port manipulation theory.
+1. <a href="/Electronics/Analogue Electronics/Practice/LED Biasing.md">LED Biasing</a> and the use of current limiting resistors.
+2. The use of <a href="/Electronics/Digital Electronics/Theory/Floating Voltage States.md">pull-ups or pull-downs</a>.
+3. Creating a new sketch on the <a href="/Electronics/Embedded Systems/Arduino/Arduino IDE Basics.md">Arduino IDE and configuring com-port</a>.
+4. <a href="/Computer Science/Programming Languages/C/C.md">Basic of C</a> and <a href="/Electronics/Embedded Systems/Embedded C & C++/Embedded C/Embedded C.md">bit manipulation</a> using bit-wise operators in C.
+5. <em>Optional</em>: IO registers and <a href="/Electronics/Embedded Systems/Arduino/Arduino Ports Basics.md">port manipulation theory</a>.
 
 ## The Aim:
 <p>
@@ -231,3 +231,26 @@ void loop()
 }
 </code>
 </pre>
+
+<p>
+And at last, here is the Arduino way of doing the same.
+</p>
+
+<pre>
+<code class="cpp">
+void setup() {
+  // Configure pin 12 as input and pin 13 (LED_BUILTIN) as output.
+  pinMode(LED_BUILTIN, OUTPUT);
+  pinMode(12, INPUT_PULLUP);
+}
+
+void loop() {
+  // LED state = Pin 12 state
+  digitalWrite(LED_BUILTIN, digitalRead(12));
+}
+</code>
+</pre>
+
+<p>
+This concludes the basics for controlling the digital IO on Arduino UNO R3. In the next article, we will look at using digital ports on Arduino to control a 7-segment LED display. It will a good extension of the knowledge we have obtained in this article. You can find the next article here <a href="/Electronics/Embedded Systems/Arduino/Controlling a 7-Segment Display.md">Controlling a 7-Segment Display</a>.
+</p>
