@@ -45,14 +45,14 @@
                 "content": " Biblioteca "
             },
             {
-                "url": "/tags/Control Systems",
-                "title": "Tag Control Systems",
-                "content": " Control Systems "
-            },
-            {
                 "url": "/tags/Computer Science",
                 "title": "Tag Computer Science",
                 "content": " Computer Science "
+            },
+            {
+                "url": "/tags/Control Systems",
+                "title": "Tag Control Systems",
+                "content": " Control Systems "
             },
             {
                 "url": "/tags/Electrical Engineering",
@@ -157,6 +157,6 @@
         {
             "url": "/tags/",
             "title": "./core/libdoc_tags.liquid",
-            "content": "  Welcome Page 6 pages Electronics 4 pages Mathematics 3 pages Embedded Systems 3 pages Arduino 2 pages Linear Algebra 2 pages Personal 1 page About Me 1 page Biblioteca 1 page Control Systems 1 page Computer Science 1 page Electrical Engineering 1 page Mechatronics 1 page Affine 1 page"
+            "content": "  Welcome Page 6 pages Electronics 4 pages Mathematics 3 pages Embedded Systems 3 pages Arduino 2 pages Linear Algebra 2 pages Personal 1 page About Me 1 page Biblioteca 1 page Computer Science 1 page Control Systems 1 page Electrical Engineering 1 page Mechatronics 1 page Affine 1 page"
         }
 ]
