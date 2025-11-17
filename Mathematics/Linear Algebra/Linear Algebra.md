@@ -10,5 +10,6 @@ eleventyNavigation:
 tags:
     - Mathematics
     - Linear Algebra
-# date: 15-11-2025
+date: 2025-11-15
+author: Chandra Mouli
 ---

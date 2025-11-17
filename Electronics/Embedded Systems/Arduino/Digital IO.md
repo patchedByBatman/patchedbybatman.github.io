@@ -11,7 +11,7 @@ tags:
     - Electronics
     - Embedded Systems
     - Arduino
-date: 2025-11-17
+date: 2025-11-15
 ---
 
 ## Prerequisites

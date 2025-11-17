@@ -12,7 +12,7 @@ tags:
     - Embedded Systems
     - Arduino
 ogImageUrl: https://content.arduino.cc/assets/ArduinoCommunityLogo_SVG.svg
-# date: 15-11-2025
+date: 2025-11-15
 ---
 
 ## Aim:
