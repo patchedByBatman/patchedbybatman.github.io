@@ -13,3 +13,8 @@ date: 2025-11-15
 ---
 
 This is the welcome page for Computer Science posts. 
+
+## Topics
+1. {% 
+iconCard '[Programming Languages](/Computer%20Science/Programming%20Languages/)', 'Pick your poison and learn to code.', 'code' 
+%}
