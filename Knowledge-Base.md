@@ -5,6 +5,7 @@ layout: libdoc_page.liquid
 permalink: index.html
 tags:
     - Biblioteca
+date: 2025-11-15
 ---
 {% alert 'This is a blog-style knowledge base spanning fields of Mathematics, Electrical, Electronics, Computer Science, Control, and Mechatronics.', 'success', 'A grain on a beach.' %}
 

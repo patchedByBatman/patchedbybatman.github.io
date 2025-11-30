@@ -11,5 +11,4 @@ tags:
     - Mathematics
     - Linear Algebra
 date: 2025-11-15
-author: Chandra Mouli
 ---
