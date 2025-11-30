@@ -19,8 +19,8 @@ date: 2025-11-15
 Though this article deals with a very fundamental topic in embedded systems, it is assumed that the reader already has the knowledge of the following topics.
 </p>
 
-1. <a href="/Electronics/Analogue Electronics/Practice/LED Biasing.md">LED Biasing</a> and the use of current limiting resistors.
-2. The use of <a href="/Electronics/Digital Electronics/Theory/Floating Voltage States.md">pull-ups or pull-downs</a>.
+1. LED Biasing and the use of current limiting resistors.
+2. The use of pull-ups or pull-downs.
 3. Creating a new sketch on the <a href="/Electronics/Embedded Systems/Arduino/Arduino IDE Basics.md">Arduino IDE and configuring com-port</a>.
 4. <a href="/Computer Science/Programming Languages/C/C.md">Basic of C</a> and <a href="/Electronics/Embedded Systems/Embedded C & C++/Embedded C/Embedded C.md">bit manipulation</a> using bit-wise operators in C.
 5. <em>Optional</em>: IO registers and <a href="/Electronics/Embedded Systems/Arduino/Arduino Ports Basics.md">port manipulation theory</a>.
