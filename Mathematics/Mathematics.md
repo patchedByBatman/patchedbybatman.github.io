@@ -12,4 +12,10 @@ tags:
 date: 2025-11-15
 ---
 
-This is the welcome page for Mathematics posts. 
+> चतुरधिकं शतमष्टगुणं द्वाषष्टिस्तथा सहस्राणाम् ।
+> आयुतद्वयविष्कम्भस्यासन्नो वृत्तपरिणाहः ॥  
+> <p align="right"> — Aryabhata <br>
+> (<i>Aryabhatiya, Ganitapada, Verse 10</i>)</p>
+
+## Branches
+1. {% iconCard '[Linear Algebra](/Mathematics/Linear%20Algebra/)', 'The solution to most of modern problems.', 'pen' %}
