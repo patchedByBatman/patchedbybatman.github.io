@@ -3,10 +3,10 @@ title: Programming Languages
 description: This sub-base aims to cover a useful collection of programming languages from basics to advanced. 
 layout: libdoc_page.liquid
 permalink: Computer Science/Programming Languages/index.html
-eleventyNavigation:
-    key: Programming Languages
-    parent: Computer Science
-    order: 1
+# eleventyNavigation:
+#     key: Programming Languages
+#     parent: Computer Science
+#     order: 1
 tags:
     - Programming Languages
 date: 2025-11-17
