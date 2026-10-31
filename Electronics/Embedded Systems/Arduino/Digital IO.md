@@ -3,10 +3,10 @@ title: Digital IO
 description: This article covers how to control digital IO on Arduino UNO R3. 
 layout: libdoc_page.liquid
 permalink: Electronics/Embedded Systems/Arduino/Digital IO/index.html
-eleventyNavigation:
-    key: Digital IO
-    parent: Arduino
-    order: 4
+# eleventyNavigation:
+#     key: Digital IO
+#     parent: Arduino
+#     order: 4
 tags:
     - Electronics
     - Embedded Systems

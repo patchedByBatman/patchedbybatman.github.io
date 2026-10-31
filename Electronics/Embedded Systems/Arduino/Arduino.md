@@ -3,10 +3,10 @@ title: Arduino
 description: Embedded programming of AVR micro-controllers using the Arduino platform. 
 layout: libdoc_page.liquid
 permalink: Electronics/Embedded Systems/Arduino/index.html
-eleventyNavigation:
-    key: Arduino
-    parent: Embedded Systems
-    order: 0
+# eleventyNavigation:
+#     key: Arduino
+#     parent: Embedded Systems
+#     order: 0
 tags:
     - Electronics
     - Embedded Systems
