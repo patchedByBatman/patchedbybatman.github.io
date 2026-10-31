@@ -12,7 +12,7 @@
         {
             "url": "/Control Systems/",
             "title": "Control Systems theory base",
-            "description": "Here you will find post related to Control Systems theory and design. Control Systems Welcome Page"
+            "description": "Here you will find posts related to Control Systems theory and design. Control Systems Welcome Page"
         },
         {
             "url": "/Electrical Engineering/",
@@ -25,19 +25,14 @@
             "description": "Here you will find post related to Analogue and Digital Electronics theory, design and implementation. Electronics Welcome Page"
         },
         {
-            "url": "/Electronics/Embedded Systems/Arduino/Arduino IDE Basics/",
-            "title": "./Electronics/Embedded Systems/Arduino/Arduino IDE Basics.md",
-            "description": " "
-        },
-        {
-            "url": "/Electronics/Embedded Systems/Arduino/Arduino Ports Basics/",
-            "title": "./Electronics/Embedded Systems/Arduino/Arduino Ports Basics.md",
-            "description": " "
-        },
-        {
             "url": "/Electronics/Embedded Systems/Arduino/",
             "title": "Arduino",
             "description": "Embedded programming of AVR micro-controllers using the Arduino platform. Electronics Embedded Systems Arduino"
+        },
+        {
+            "url": "/Electronics/Embedded Systems/Arduino/Controlling a 7-Segment Display/",
+            "title": "Controlling a 7-Segment Display",
+            "description": "This article covers how to control a 7-Segment display using digital IO ports on Arduino UNO R3. Electronics Embedded Systems Arduino 7-Segment Display"
         },
         {
             "url": "/Electronics/Embedded Systems/Arduino/Digital IO/",
@@ -73,6 +68,46 @@
             "url": "/Mechatronics/",
             "title": "Mechatronics Base",
             "description": "Here you will find post related to Control Systems and Robotics theory implementation. Mechatronics Welcome Page"
+        },
+        {
+            "url": "/Mechatronics/Simulations/MPC/",
+            "title": "Examples with MPC",
+            "description": "Model Predictive Control in action. Control Systems Practice Projects Welcome Page"
+        },
+        {
+            "url": "/Mechatronics/Simulations/",
+            "title": "Control Systems in practice",
+            "description": "Here you will find posts related to applications of Control Systems. Control Systems Practice Projects Welcome Page"
+        },
+        {
+            "url": "/Computer Science/Programming Languages/C/",
+            "title": "C",
+            "description": "This sub-base covers the C language from basics to advanced. C C Programming"
+        },
+        {
+            "url": "/Computer Science/Programming Languages/",
+            "title": "Programming Languages",
+            "description": "This sub-base aims to cover a useful collection of programming languages from basics to advanced. Programming Languages"
+        },
+        {
+            "url": "/Mechatronics/Simulations/MPC/BRIO Labyrinth/",
+            "title": "Solving the BRIO Labyrinth using MPC with Convex QP formulation",
+            "description": "This article covers solving the BRIO Labyrinth using MPC in simulation. Control Systems Project Practice BRIO Labyrinth MPC Convex QP"
+        },
+        {
+            "url": "/Mechatronics/Simulations/MPC/Autonomous Car NMPC Part 2/",
+            "title": "Nonlinear Model Predictive Control (NMPC) for autonomous navigation of small scale cars part 2",
+            "description": "This is the second part of a two-part series of articles that cover autonomous navigation of a car using NMPC in simulation. Control Systems Project Practice Simulation Autonomous Vehicles NMPC Obstacle Avoidance Lane-Keeping Nonlinear Control"
+        },
+        {
+            "url": "/Electronics/Embedded Systems/Arduino/Arduino IDE Basics/",
+            "title": "./Electronics/Embedded Systems/Arduino/Arduino IDE Basics.md",
+            "description": " "
+        },
+        {
+            "url": "/Electronics/Embedded Systems/Arduino/Arduino Ports Basics/",
+            "title": "./Electronics/Embedded Systems/Arduino/Arduino Ports Basics.md",
+            "description": " "
         },
         {
             "url": "/core/assets/fonts/icomoon/demo/",
