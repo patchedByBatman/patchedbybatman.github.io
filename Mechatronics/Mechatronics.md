@@ -15,3 +15,8 @@ date: 2025-11-15
 This is the welcome page for Mechatronics posts. 
 
 <b>Note:</b> For theory and design details of Control Systems go to the [Control Systems](/Control%20Systems/Control%20Systems.md) posts.
+
+
+## Topics:
+
+1. {% iconCard '[Simulations](/Mechatronics/Simulations/Simulations.md)', 'Control Systems in practice.', 'code' %}
