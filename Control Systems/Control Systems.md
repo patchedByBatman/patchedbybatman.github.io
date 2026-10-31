@@ -1,6 +1,6 @@
 ---
 title: Control Systems theory base
-description: Here you will find post related to Control Systems theory and design.
+description: Here you will find posts related to Control Systems theory and design.
 layout: libdoc_page.liquid
 permalink: Control Systems/index.html
 eleventyNavigation:
